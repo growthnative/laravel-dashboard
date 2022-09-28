@@ -31,14 +31,14 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'google' => [
-        'client_id' => '708808541121-2e4sbcqu0q2926gmh09v1hagosc3osdn.apps.googleusercontent.com',
-        'client_secret' => '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',
-        'redirect' => 'http://127.0.0.1:8000/callback/google',
+        'client_id' => 'YOUR GOOGLE CLIENT ID',
+        'client_secret' => 'YOUR GOOGLE CLIENT SECRET',
+        'redirect' => 'YOUR REDIRECT URL',
     ], 
     'facebook' => [
-        'client_id' => '766335071072179',
-        'client_secret' => '353f72db892ac41fcc5469b706351f7e',
-        'redirect' => 'http://localhost:8000/callback',
+        'client_id' => 'YOUR FACEBOOK CLIENT ID',
+        'client_secret' => 'YOUR FACEBOOK CLIENT SECRET',
+        'redirect' => 'YOUR REDIRECT URL',
     ],
     'stripe' => [
         'secret' => env('STRIPE_SECRET'),
